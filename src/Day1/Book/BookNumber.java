@@ -1,4 +1,4 @@
-package Book;
+package Day1.Book;
 
 public abstract class BookNumber {
 
@@ -25,4 +25,5 @@ public abstract class BookNumber {
     }
 
     abstract String getType();
+
 }

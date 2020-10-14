@@ -1,4 +1,4 @@
-package figure;
+package Day1.figure;
 
 public class Circle extends Figure {
     private double r;

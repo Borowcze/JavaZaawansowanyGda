@@ -1,4 +1,4 @@
-package zoo;
+package Day1;
 
 public class AnimalEx {
 

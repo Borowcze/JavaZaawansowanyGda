@@ -1,4 +1,4 @@
-package figure;
+package Day1.figure;
 
 public class MainFigure {
     public static void main(String[] args) {

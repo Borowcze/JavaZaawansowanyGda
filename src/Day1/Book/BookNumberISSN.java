@@ -1,4 +1,4 @@
-package Book;
+package Day1.Book;
 
 public class  BookNumberISSN extends  BookNumber{
 

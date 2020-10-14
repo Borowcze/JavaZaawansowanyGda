@@ -1,4 +1,4 @@
-package Book;
+package Day1.Book;
 
 public class Book {
 
@@ -8,7 +8,7 @@ public class Book {
         return bookNumber;
     }
 
-//    public Book(String title, String bookNumber) {
+//    public Day1.Book(String title, String bookNumber) {
 //        this(title, new BookNumber(bookNumber));
 //    }
 
@@ -24,11 +24,19 @@ public class Book {
 
     public static void main(String[] args) {
         Book bookOne = new Book("Wiedźmin", new BookNumberISBN("1234-1245"));
-        Book iss = new BookNumberISS("Clean code", new BookNumberISBN("XYZ"));
+        Book iss = new BookNumberISS("Clean code", new BookNumberISSN("XYZ"));
+
+
+        BookNumber bookNumber2 = new BookNumber("7894-651") {
+            @Override
+            String getType() {
+                return null;
+            }
+        };
 
         System.out.println(bookOne.printInfo());
         System.out.println(iss.printInfo());
-
-
+        bookNumber2.getNumb();
+        System.out.println(bookNumber2.getNumb());
     }
 }

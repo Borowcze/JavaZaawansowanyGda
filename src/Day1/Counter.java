@@ -1,3 +1,5 @@
+package Day1;
+
 public class Counter {
 
     private static int counter = 0;

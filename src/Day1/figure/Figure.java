@@ -1,4 +1,4 @@
-package figure;
+package Day1.figure;
 
 public abstract class Figure {
 

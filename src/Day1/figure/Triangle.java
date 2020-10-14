@@ -1,4 +1,4 @@
-package figure;
+package Day1.figure;
 
 public class Triangle extends Figure{
     private double a;
