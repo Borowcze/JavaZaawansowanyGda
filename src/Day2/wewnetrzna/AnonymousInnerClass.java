@@ -43,5 +43,4 @@ public class AnonymousInnerClass {
             b.printInfo();
         }
     }
-
 }

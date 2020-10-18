@@ -11,4 +11,14 @@ public abstract class Animal {
     }
 
     public abstract void giveSound();
+
+    public static void main(String[] args) {
+        Animal[] animals = new Animal[2];
+        animals[0] = new Elephant();
+        animals[1] = new Monkey();
+
+        for(Animal animal : animals){
+            animal.giveSound();
+        }
+    }
 }
